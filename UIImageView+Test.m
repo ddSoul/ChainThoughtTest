@@ -16,6 +16,11 @@
     parameter(_imageView);
 }
 
+- (NSString *)test
+{
+    return @"dddd";
+}
+
 - (UIImageView * (^)(UIColor *color)) KBackgroundColor
 {
     return ^(UIColor *color){
