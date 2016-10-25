@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */; };
 		EEA246871DBA122400BF85D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246861DBA122400BF85D7 /* main.m */; };
 		EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246891DBA122400BF85D7 /* AppDelegate.m */; };
 		EEA2468D1DBA122400BF85D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2468C1DBA122400BF85D7 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Test.h"; sourceTree = "<group>"; };
+		EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Test.m"; sourceTree = "<group>"; };
 		EEA246821DBA122400BF85D7 /* ChainThoughtTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainThoughtTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA246861DBA122400BF85D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEA246881DBA122400BF85D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		EEA246841DBA122400BF85D7 /* ChainThoughtTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */,
+				EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */,
 				EEA246BB1DBA127B00BF85D7 /* UIImageView+Test.h */,
 				EEA246BC1DBA127B00BF85D7 /* UIImageView+Test.m */,
 				EEA246BE1DBA129A00BF85D7 /* UILabel+Test.h */,
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA2468D1DBA122400BF85D7 /* ViewController.m in Sources */,
+				EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */,
 				EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */,
 				EEA246C01DBA129A00BF85D7 /* UILabel+Test.m in Sources */,
 				EEA246BD1DBA127B00BF85D7 /* UIImageView+Test.m in Sources */,
@@ -526,6 +532,7 @@
 				EEA246B11DBA122400BF85D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEA246B21DBA122400BF85D7 /* Build configuration list for PBXNativeTarget "ChainThoughtTestTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				EEA246B41DBA122400BF85D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEA246B51DBA122400BF85D7 /* Build configuration list for PBXNativeTarget "ChainThoughtTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				EEA246B71DBA122400BF85D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

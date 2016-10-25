@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIImageView+Test.h"
 #import "UILabel+Test.h"
+#import "UIButton+Test.h"
 
 @interface ViewController ()
 
@@ -42,6 +43,20 @@
         .KAddSubView(self.view);
         
     }];
+    
+    [UIButton initUIButton:^(UIButton *button){
+        
+        button.KFrame(CGRectMake(100, 100, 100, 100))
+        .KBackgroundColor([UIColor brownColor])
+        .KSelect(@selector(click))
+        .KAddSubView(self.view);
+        
+    }];
+}
+
+- (void)click
+{
+    NSLog(@"________click");
 }
 
 - (void)didReceiveMemoryWarning {

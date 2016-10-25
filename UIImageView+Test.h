@@ -20,6 +20,4 @@
 
 - (UIImageView * (^)(UIView *superView)) KAddSubView;
 
-- (NSString *)test;
-
 @end
