@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB9BD571DC6E60A00F0C6DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9BD561DC6E60A00F0C6DE /* Person.m */; };
 		EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */; };
 		EEA246871DBA122400BF85D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246861DBA122400BF85D7 /* main.m */; };
 		EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246891DBA122400BF85D7 /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BB9BD551DC6E60A00F0C6DE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7BB9BD561DC6E60A00F0C6DE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Test.h"; sourceTree = "<group>"; };
 		EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Test.m"; sourceTree = "<group>"; };
 		EEA246821DBA122400BF85D7 /* ChainThoughtTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainThoughtTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +113,8 @@
 		EEA246841DBA122400BF85D7 /* ChainThoughtTest */ = {
 			isa = PBXGroup;
 			children = (
+				7BB9BD551DC6E60A00F0C6DE /* Person.h */,
+				7BB9BD561DC6E60A00F0C6DE /* Person.m */,
 				EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */,
 				EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */,
 				EEA246BB1DBA127B00BF85D7 /* UIImageView+Test.h */,
@@ -293,6 +298,7 @@
 			files = (
 				EEA2468D1DBA122400BF85D7 /* ViewController.m in Sources */,
 				EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */,
+				7BB9BD571DC6E60A00F0C6DE /* Person.m in Sources */,
 				EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */,
 				EEA246C01DBA129A00BF85D7 /* UILabel+Test.m in Sources */,
 				EEA246BD1DBA127B00BF85D7 /* UIImageView+Test.m in Sources */,

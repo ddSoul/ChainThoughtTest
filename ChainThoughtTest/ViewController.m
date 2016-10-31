@@ -10,6 +10,7 @@
 #import "UIImageView+Test.h"
 #import "UILabel+Test.h"
 #import "UIButton+Test.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -57,6 +58,13 @@
 - (void)click
 {
     NSLog(@"________click");
+    [Person initPerson:^(Person *person){
+       
+        person.KNameString(@"张三")
+        .KSexString(@"男");
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
