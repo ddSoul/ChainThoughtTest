@@ -59,7 +59,7 @@
 {
     [Person initPerson:^(Person *person){
        
-        person.KNameString(@"张三")
+        person.KNameString(@"王二")
         .KSexString(@"男");
         
     }];
