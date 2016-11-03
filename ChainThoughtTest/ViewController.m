@@ -57,7 +57,6 @@
 
 - (void)click
 {
-    NSLog(@"________click");
     [Person initPerson:^(Person *person){
        
         person.KNameString(@"张三")
