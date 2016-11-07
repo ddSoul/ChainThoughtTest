@@ -40,7 +40,7 @@
     [UIImageView initUIImageView:^(UIImageView *imageView){
         
         imageView.KFrame(CGRectMake(0, 200, 200, 400))
-        .KImageName(@"test")
+        .KImageName(@"testtest")
         .KAddSubView(self.view);
         
     }];
