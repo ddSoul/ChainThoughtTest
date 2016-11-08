@@ -60,7 +60,7 @@
     [Person initPerson:^(Person *person){
        
         person.KNameString(@"王二")
-        .KSexString(@"nv");
+        .KSexString(@"男女");
         
     }];
     
