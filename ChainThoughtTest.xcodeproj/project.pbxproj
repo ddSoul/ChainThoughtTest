@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BB9BD571DC6E60A00F0C6DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9BD561DC6E60A00F0C6DE /* Person.m */; };
-		EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */; };
+		7B4223341DD32EDD00B7FB09 /* UIButton+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42232F1DD32EDD00B7FB09 /* UIButton+Test.m */; };
+		7B4223351DD32EDD00B7FB09 /* UIImageView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4223311DD32EDD00B7FB09 /* UIImageView+Test.m */; };
+		7B4223361DD32EDD00B7FB09 /* UILabel+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4223331DD32EDD00B7FB09 /* UILabel+Test.m */; };
+		7B42233A1DD32F0600B7FB09 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4223391DD32F0600B7FB09 /* Person.m */; };
 		EEA246871DBA122400BF85D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246861DBA122400BF85D7 /* main.m */; };
 		EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246891DBA122400BF85D7 /* AppDelegate.m */; };
 		EEA2468D1DBA122400BF85D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2468C1DBA122400BF85D7 /* ViewController.m */; };
@@ -17,8 +19,6 @@
 		EEA246951DBA122400BF85D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA246931DBA122400BF85D7 /* LaunchScreen.storyboard */; };
 		EEA246A01DBA122400BF85D7 /* ChainThoughtTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2469F1DBA122400BF85D7 /* ChainThoughtTestTests.m */; };
 		EEA246AB1DBA122400BF85D7 /* ChainThoughtTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246AA1DBA122400BF85D7 /* ChainThoughtTestUITests.m */; };
-		EEA246BD1DBA127B00BF85D7 /* UIImageView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246BC1DBA127B00BF85D7 /* UIImageView+Test.m */; };
-		EEA246C01DBA129A00BF85D7 /* UILabel+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA246BF1DBA129A00BF85D7 /* UILabel+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7BB9BD551DC6E60A00F0C6DE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		7BB9BD561DC6E60A00F0C6DE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Test.h"; sourceTree = "<group>"; };
-		EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Test.m"; sourceTree = "<group>"; };
+		7B42232E1DD32EDD00B7FB09 /* UIButton+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Test.h"; sourceTree = "<group>"; };
+		7B42232F1DD32EDD00B7FB09 /* UIButton+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Test.m"; sourceTree = "<group>"; };
+		7B4223301DD32EDD00B7FB09 /* UIImageView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Test.h"; sourceTree = "<group>"; };
+		7B4223311DD32EDD00B7FB09 /* UIImageView+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Test.m"; sourceTree = "<group>"; };
+		7B4223321DD32EDD00B7FB09 /* UILabel+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Test.h"; sourceTree = "<group>"; };
+		7B4223331DD32EDD00B7FB09 /* UILabel+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Test.m"; sourceTree = "<group>"; };
+		7B4223381DD32F0600B7FB09 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7B4223391DD32F0600B7FB09 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EEA246821DBA122400BF85D7 /* ChainThoughtTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainThoughtTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA246861DBA122400BF85D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEA246881DBA122400BF85D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,10 +63,6 @@
 		EEA246A61DBA122400BF85D7 /* ChainThoughtTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainThoughtTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA246AA1DBA122400BF85D7 /* ChainThoughtTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainThoughtTestUITests.m; sourceTree = "<group>"; };
 		EEA246AC1DBA122400BF85D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEA246BB1DBA127B00BF85D7 /* UIImageView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Test.h"; path = "../UIImageView+Test.h"; sourceTree = "<group>"; };
-		EEA246BC1DBA127B00BF85D7 /* UIImageView+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Test.m"; path = "../UIImageView+Test.m"; sourceTree = "<group>"; };
-		EEA246BE1DBA129A00BF85D7 /* UILabel+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Test.h"; path = "../UILabel+Test.h"; sourceTree = "<group>"; };
-		EEA246BF1DBA129A00BF85D7 /* UILabel+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Test.m"; path = "../UILabel+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B42232D1DD32EDD00B7FB09 /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+				7B42232E1DD32EDD00B7FB09 /* UIButton+Test.h */,
+				7B42232F1DD32EDD00B7FB09 /* UIButton+Test.m */,
+				7B4223301DD32EDD00B7FB09 /* UIImageView+Test.h */,
+				7B4223311DD32EDD00B7FB09 /* UIImageView+Test.m */,
+				7B4223321DD32EDD00B7FB09 /* UILabel+Test.h */,
+				7B4223331DD32EDD00B7FB09 /* UILabel+Test.m */,
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		7B4223371DD32F0600B7FB09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B4223381DD32F0600B7FB09 /* Person.h */,
+				7B4223391DD32F0600B7FB09 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EEA246791DBA122400BF85D7 = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +135,8 @@
 		EEA246841DBA122400BF85D7 /* ChainThoughtTest */ = {
 			isa = PBXGroup;
 			children = (
-				7BB9BD551DC6E60A00F0C6DE /* Person.h */,
-				7BB9BD561DC6E60A00F0C6DE /* Person.m */,
-				EE3CC1041DBEF1B30028EEBF /* UIButton+Test.h */,
-				EE3CC1051DBEF1B30028EEBF /* UIButton+Test.m */,
-				EEA246BB1DBA127B00BF85D7 /* UIImageView+Test.h */,
-				EEA246BC1DBA127B00BF85D7 /* UIImageView+Test.m */,
-				EEA246BE1DBA129A00BF85D7 /* UILabel+Test.h */,
-				EEA246BF1DBA129A00BF85D7 /* UILabel+Test.m */,
+				7B4223371DD32F0600B7FB09 /* Model */,
+				7B42232D1DD32EDD00B7FB09 /* Categray */,
 				EEA246881DBA122400BF85D7 /* AppDelegate.h */,
 				EEA246891DBA122400BF85D7 /* AppDelegate.m */,
 				EEA2468B1DBA122400BF85D7 /* ViewController.h */,
@@ -297,12 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA2468D1DBA122400BF85D7 /* ViewController.m in Sources */,
-				EE3CC1061DBEF1B30028EEBF /* UIButton+Test.m in Sources */,
-				7BB9BD571DC6E60A00F0C6DE /* Person.m in Sources */,
+				7B4223361DD32EDD00B7FB09 /* UILabel+Test.m in Sources */,
+				7B42233A1DD32F0600B7FB09 /* Person.m in Sources */,
+				7B4223351DD32EDD00B7FB09 /* UIImageView+Test.m in Sources */,
 				EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */,
-				EEA246C01DBA129A00BF85D7 /* UILabel+Test.m in Sources */,
-				EEA246BD1DBA127B00BF85D7 /* UIImageView+Test.m in Sources */,
 				EEA246871DBA122400BF85D7 /* main.m in Sources */,
+				7B4223341DD32EDD00B7FB09 /* UIButton+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
