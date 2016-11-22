@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3BBD3E1DE419E6004F9FB2 /* MRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBD3D1DE419E6004F9FB2 /* MRCViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7B4223341DD32EDD00B7FB09 /* UIButton+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42232F1DD32EDD00B7FB09 /* UIButton+Test.m */; };
 		7B4223351DD32EDD00B7FB09 /* UIImageView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4223311DD32EDD00B7FB09 /* UIImageView+Test.m */; };
 		7B4223361DD32EDD00B7FB09 /* UILabel+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4223331DD32EDD00B7FB09 /* UILabel+Test.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B3BBD3C1DE419E6004F9FB2 /* MRCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCViewController.h; sourceTree = "<group>"; };
+		7B3BBD3D1DE419E6004F9FB2 /* MRCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCViewController.m; sourceTree = "<group>"; };
 		7B42232E1DD32EDD00B7FB09 /* UIButton+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Test.h"; sourceTree = "<group>"; };
 		7B42232F1DD32EDD00B7FB09 /* UIButton+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Test.m"; sourceTree = "<group>"; };
 		7B4223301DD32EDD00B7FB09 /* UIImageView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Test.h"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				EEA246891DBA122400BF85D7 /* AppDelegate.m */,
 				EEA2468B1DBA122400BF85D7 /* ViewController.h */,
 				EEA2468C1DBA122400BF85D7 /* ViewController.m */,
+				7B3BBD3C1DE419E6004F9FB2 /* MRCViewController.h */,
+				7B3BBD3D1DE419E6004F9FB2 /* MRCViewController.m */,
 				EEA2468E1DBA122400BF85D7 /* Main.storyboard */,
 				EEA246911DBA122400BF85D7 /* Assets.xcassets */,
 				EEA246931DBA122400BF85D7 /* LaunchScreen.storyboard */,
@@ -319,6 +324,7 @@
 				EEA2468A1DBA122400BF85D7 /* AppDelegate.m in Sources */,
 				EEA246871DBA122400BF85D7 /* main.m in Sources */,
 				7B4223341DD32EDD00B7FB09 /* UIButton+Test.m in Sources */,
+				7B3BBD3E1DE419E6004F9FB2 /* MRCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

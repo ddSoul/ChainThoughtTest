@@ -43,15 +43,21 @@
     };
 }
 
+- (NSString *)kname
+{
+    return @"ttt";
+}
+
+
 //test
-- (void)setKgg:(void (^)(NSString *))Kgg
-{
-    self.Kgg = Kgg;
-}
-- (void (^)(NSString *))Kgg
-{
-    return self.Kgg;
-}
+//- (void)setKgg:(void (^)(NSString *))Kgg
+//{
+//    self.Kgg = Kgg;
+//}
+//- (void (^)(NSString *))Kgg
+//{
+//    return self.Kgg;
+//}
 
 
 @end

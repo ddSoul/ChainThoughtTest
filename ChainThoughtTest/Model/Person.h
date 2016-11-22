@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^KGG) (NSString *KGG);
+
 @interface Person : NSObject
 
 /***
@@ -27,5 +29,10 @@
 
 @property (nonatomic, copy) void (^Kgg) (NSString *gg);
 
+@property (nonatomic, copy) KGG gg;
+
+@property (nonatomic, copy) NSString *name;
+
+- (NSString *)kname;
 
 @end
