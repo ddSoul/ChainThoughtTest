@@ -34,5 +34,24 @@
     };
 }
 
+//test
+- (void (^) (NSString *tset)) KTest
+{
+    return ^(NSString *test){
+     
+        NSLog(@"TestTest");
+    };
+}
+
+//test
+- (void)setKgg:(void (^)(NSString *))Kgg
+{
+    self.Kgg = Kgg;
+}
+- (void (^)(NSString *))Kgg
+{
+    return self.Kgg;
+}
+
 
 @end

@@ -62,8 +62,17 @@
         person.KNameString(@"张三李四王二")
         .KSexString(@"男女");
         
+        person =  person.KNameString(@"张三李四王二");
+        
+        NSLog(@"______1:%@", [person KNameString]);
+        NSLog(@"______2:%@",person.KNameString(@"hello"));
+        NSLog(@"______3:%@",person.KNameString);
+        NSLog(@"______4:%@",[person.KNameString(@"hello") class]);
+        NSLog(@"______5:%@",[person.KNameString class]);
+        NSLog(@"______6:%@",[person.KTest class]);
+        
     }];
-    
+
 }
 
 - (void)didReceiveMemoryWarning {

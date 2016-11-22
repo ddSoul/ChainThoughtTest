@@ -23,4 +23,9 @@
 
 - (Person * (^)(NSString *sexString)) KSexString;
 
+- (void (^) (NSString *tset)) KTest;
+
+@property (nonatomic, copy) void (^Kgg) (NSString *gg);
+
+
 @end
