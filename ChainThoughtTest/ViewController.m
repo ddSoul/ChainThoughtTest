@@ -19,6 +19,12 @@
 
 @implementation ViewController
 
+#pragma mark - life clcye
+#pragma mark - custom Medoths
+#pragma mark - delegate
+#pragma mark - touch envents
+#pragma mark - setter,getter
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -82,7 +88,6 @@
         NSLog(@"______12:%@",person.kname);
         
 
-        
     }];
     
     
